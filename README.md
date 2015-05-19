@@ -22,7 +22,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Type "require 'bundler/setup'" before "require library_korich" to use gem.
 
 ## Development
 
