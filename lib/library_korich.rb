@@ -1,5 +1,13 @@
-require_relative "library_korich/version"
-require_relative "library_korich/library.rb"
+require "library_korich/version"
+require "library_korich/library.rb"
+require "library_korich/author.rb"
+require "library_korich/book.rb"
+require "library_korich/reader.rb"
+require "library_korich/order.rb"
+
+
 module LibraryKorich
-  # Your code goes here...
+  def self.name
+    "LibraryKorich"
+  end
 end
