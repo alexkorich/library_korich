@@ -1,7 +1,7 @@
-# require_relative 'author'
-# require_relative 'order'
-# require_relative 'reader'
-# require_relative 'book'
+require_relative 'author'
+require_relative 'order'
+require_relative 'reader'
+require_relative 'book'
 module LibraryKorich
 
 	class Library

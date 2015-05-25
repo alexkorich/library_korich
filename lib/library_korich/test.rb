@@ -1,3 +1,4 @@
+module LibraryKorich
 require_relative "library"
 
 
@@ -72,3 +73,4 @@ lib.save_to_file("lib")
 lib2=Library.get_from_file("lib.libfile")
 
 puts lib2.readers
+end
